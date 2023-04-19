@@ -16,8 +16,13 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
+     System.out.print("Enter integer base: ");
     Scanner in = new Scanner(System.in);
-    
+    int base = in.nextInt();
+
+    for (int i=base; i > 0; i--)
+    {
+      System.out.println("*".repeat(i));
+    }
   }
 }
